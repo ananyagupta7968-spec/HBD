@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Bestie!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mp3">
+  </audio>
+  <button id="music-btn">🎵 Play Music</button>
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+    <div class="slides fade">
+      <img src="images/pic1.jpg" alt="Memory 1">
+      <div class="caption">Cutie Gainda🐻</div>
+    </div>
+    <div class="slides fade">
+      <img src="images/pic2.jpg" alt="Memory 2">
+      <div class="caption">Hot and Spicy🔥</div>
+    </div>
+    <div class="slides fade">
+      <img src="images/pic3.jpg" alt="Memory 3">
+      <div class="caption"> Pretty Lady😍</div>
+    </div>
+  </div>
+
+  <!-- Memory Game Section -->
+  <section class="game-section">
+    <h2>💖 Memory Flip Game 💖</h2>
+    <div class="memory-game"></div>
+    <button id="replay">Replay Game</button>
+  </section>
+
+  <!-- Falling Hearts -->
+  <div id="hearts-container"></div>
+
+  <!-- Personal Letter Page -->
+  <section id="letter">
+    <h2>💌 A Message for You 💌</h2>
+    <p id="letter-text"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
