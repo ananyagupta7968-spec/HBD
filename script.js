@@ -26,14 +26,14 @@ function showSlides() {
 // ----- Memory Game -----
 const gameContainer = document.querySelector(".memory-game");
 const images = [
-  "images/pic1.jpg",
-  "images/pic2.jpg",
-  "images/pic3.jpg",
-  "images/pic1.jpg",
-  "images/pic2.jpg",
-  "images/pic3.jpg",
-  "images/pic4.jpg",
-  "images/pic4.jpg"
+  "pic1.jpg",
+  "pic2.jpg",
+  "pic3.jpg",
+  "pic1.jpg",
+  "pic2.jpg",
+  "pic3.jpg",
+  "pic4.jpg",
+  "pic4.jpg"
 ];
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -130,3 +130,4 @@ function typeLetter() {
   }
 }
 window.onload = typeLetter;
+
